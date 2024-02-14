@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="39.259102mm"
+   height="15.933966mm"
+   viewBox="0 0 39.259102 15.933966"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="home-page-layout.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="335.52217"
+     inkscape:cy="341.53258"
+     inkscape:window-width="2560"
+     inkscape:window-height="1403"
+     inkscape:window-x="0"
+     inkscape:window-y="240"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="element-structure"
+     style="display:inline"
+     sodipodi:insensitive="true"
+     transform="translate(-124.59796,-30.506173)">
+    <rect
+       style="opacity:0.498152;fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6555"
+       width="196.73825"
+       height="44.385944"
+       x="6.3913174"
+       y="14.903952" />
+    <rect
+       style="opacity:0.498152;fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
+       id="rect7984"
+       width="97.261848"
+       height="44.385941"
+       x="105.86771"
+       y="14.903952" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-124.59796,-30.506173)">
+    <text
+       xml:space="preserve"
+       style="font-size:4.9389px;font-family:'Iosevka Fixed';-inkscape-font-specification:'Iosevka Fixed, Normal';white-space:pre;inline-size:11.6844;display:inline;fill:none;stroke:#00ae9f;stroke-width:0.1"
+       x="76.307045"
+       y="36.463955"
+       id="text236"
+       transform="matrix(4.183116,0,0,4.183116,-195.71466,-106.46725)"
+       inkscape:export-filename="../../personal-website/img/ross.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         x="76.307045"
+         y="36.463955"
+         id="tspan682">ROSS</tspan></text>
+  </g>
+</svg>
