@@ -24,34 +24,36 @@ const gongSound = document.getElementById('gong-sound');
 hoverSound.volume = 0.5;
 gongSound.volume = 0.3;
 
-linkEls.forEach(function (element) {
-    element.addEventListener('click', () => {
-        gongSound.currentTime = 0;
-        gongSound.play();
-    });
-});
+// linkEls.forEach(function (element) {
+//     element.addEventListener('click', () => {
+//         gongSound.currentTime = 0;
+//         gongSound.play();
+//     });
+// });
 
 linkLines.forEach(function (element) {
-    const imgId = element.getAttribute('data-show');
-    const linkedImg = document.getElementById(imgId);
+    const themeImg = document.getElementById('theme-img');
+    const linkedImgSrc = element.getAttribute('data-show');
 
     element.addEventListener('mouseover', () => {
-        linkedImg.classList.remove('representation');
-        linkedImg.classList.add('fade-in-element');
-        hoverSound.currentTime = 0;
-        hoverSound.play();
+        // hoverSound.currentTime = 0;
+        // hoverSound.play();
+
+        themeImg.classList.remove('fade-out-element');
+        themeImg.classList.add('fade-in-element');
+        themeImg.style.backgroundImage = "url('" + linkedImgSrc + "')";
     });
     element.addEventListener('mouseout', () => {
-        linkedImg.classList.remove('fade-in-element');
-        linkedImg.classList.add('representation');
+        themeImg.classList.remove('fade-in-element');
+        themeImg.classList.add('fade-out-element');
     });
 });
 
 // mute sound toggle handling
-document.getElementById('mute-button').addEventListener('click', function(e) {
-    const el = e.target;
-    const newState = !JSON.parse(el.dataset.muted);
-    document.querySelectorAll('audio').forEach(function(audio) {audio.muted = newState;});
-    el.dataset.muted = newState;
-    el.textContent = newState ? '🔇' : '🔊';
-});
+// document.getElementById('mute-button').addEventListener('click', function(e) {
+//     const el = e.target;
+//     const newState = !JSON.parse(el.dataset.muted);
+//     document.querySelectorAll('audio').forEach(function(audio) {audio.muted = newState;});
+//     el.dataset.muted = newState;
+//     el.textContent = newState ? '🔇' : '🔊';
+// });

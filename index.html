@@ -8,14 +8,14 @@
          {
              "@context": "https://schema.org",
              "@type": "WebPage",
-             "dateCreated": "2023-09-19",
-             "dateModified": "2023-09-19"
+             "dateCreated": "2024-06-26",
+             "dateModified": "2024-06-26"
          }
         </script>
     </head>
     <body>
         <header>
-            <div id="mute-button" data-muted="false">🔊</div>
+            <!-- <div id="mute-button" data-muted="true">🔇</div> -->
             <div>
                 <img src="img/ross-transparent3.webp" alt="Ross emboss" />
                 <h2>Salutations! I'm Ross, a curious coder, who loves exploring digital realm and experiment with ideas.</h2>
@@ -28,17 +28,17 @@
 (<span class="keyword">setq</span> <span class="symbol">Accounts</span>
       ;; Links to my repo hosting accounts
       '(
-        <span class="link-line" data-show="sourcehut-img">(<a href="https://git.sr.ht/~rossvor/" class="external-link">sourcehut</a>)</span>
-        <span class="link-line" data-show="gitlab-img">(<a href="https://gitlab.com/rossvor" class="external-link">gitlab</a>)</span>
-        <span class="link-line" data-show="github-img">(<a href="https://github.com/rossvor" class="external-link">github</a>)</span>
+        <span class="link-line" data-show="/img/sourcehut.webp">(<a href="https://git.sr.ht/~rossvor/" class="external-link">sourcehut</a>)</span>
+        <span class="link-line" data-show="/img/gitlab-racoon.webp">(<a href="https://gitlab.com/rossvor" class="external-link">gitlab</a>)</span>
+        <span class="link-line" data-show="/img/github-cat.webp">(<a href="https://github.com/rossvor" class="external-link">github</a>)</span>
         ))
 
 (<span class="keyword">setq</span> <span class="symbol">Projects</span>
       ;; Various code projects I'm tinkering with"
       '(
-        <span class="link-line" data-show="fairdues-img">(<a href="https://git.sr.ht/~rossvor/fair-dues" class="external-link" target="_blank">fair-dues</a> "Firefox browser extension for tracking donations you give to creators")</span>
-        <span class="link-line" data-show="tradle-img">(<a href="https://tradle.rvcg.net/" class="external-link" target="_blank">tradle</a> "Fork of tradle. Added trade volume distance, and decreased reliance on geography knowledge")</span>
-        <span class="link-line" data-show="playlistzip-img">(<a href="https://pypi.org/project/playlistzip/" class="external-link" target="_blank">playlistzip</a> "Utility to make create viewsync links out of youtube playlists")</span>
+        <span class="link-line" data-show="/img/cubist-face-transparent3.webp">(<a href="https://git.sr.ht/~rossvor/fair-dues" class="external-link" target="_blank">fair-dues</a> "Firefox browser extension for tracking donations you give to creators")</span>
+        <span class="link-line" data-show="/img/tradle.webp">(<a href="https://tradle.rvcg.net/" class="external-link" target="_blank">tradle</a> "Fork of tradle. Added trade volume distance, and decreased reliance on geography knowledge")</span>
+        <span class="link-line" data-show="/img/playlistzip.webp">(<a href="https://pypi.org/project/playlistzip/" class="external-link" target="_blank">playlistzip</a> "Utility to make create viewsync links out of youtube playlists")</span>
         ))
 
 (<span class="keyword">setq</span> <span class="symbol">Links</span>
@@ -48,6 +48,7 @@
         <span class="link-line">(<a href="https://randomascii.wordpress.com/" class="external-link">"Random ASCII"</a> "Tech blog with some great debugging stories")</span>
         <span class="link-line">(<a href="https://www.kickscondor.com/" class="external-link">kickscondor</a> "net art")</span>
         <span class="link-line">(<a href="https://wiki.xxiivv.com/" class="external-link">xxiivv</a> "Art collective, a great example of 'total artwork', permeating everything they do")</span>
+        <span class="link-line">(<a href="https://www.pouet.net/" class="external-link">pouët</a> "One of the oldest demoscene communities. Watch pretty shiny things and thingies")</span>
         ))
                         </pre>
                 </div>
@@ -60,10 +61,11 @@
                     <img id="tradle-img" class="representation" src="/img/tradle.webp">
                 </div>
             </section>
+            <div id="theme-img"></div>
         </main>
         <footer> Ross Vorotynskij © 2023. <a href="/attributions.html">Attributions</a></footer>
-        <audio id="hover-sound"><source src="/sounds/92736__robinhood76__01522-swoosh-1.wav" type="audio/wav"></audio>
-        <audio id="gong-sound"><source src="/sounds/gong-truncated.mp3" type="audio/mp3"></audio>
+        <audio id="hover-sound" muted="true"><source src="/sounds/92736__robinhood76__01522-swoosh-1.wav" type="audio/wav"></audio>
+        <audio id="gong-sound" muted="true"><source src="/sounds/gong-truncated.mp3" type="audio/mp3"></audio>
         <script async src="scripts/main.js"></script>
     </body>
 </html>
